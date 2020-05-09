@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
+import * as $ from "jquery";
 
 @Component({
   selector: "app-navbar",
@@ -13,5 +14,6 @@ export class NavbarComponent implements OnInit {
   buscarHeroe(busqueda: string) {
     //console.warn(busqueda);
     this.router.navigate(["/search", busqueda]);
+    $("#limpiar").val("");
   }
 }
