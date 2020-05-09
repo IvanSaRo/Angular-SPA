@@ -60,9 +60,7 @@ export class HeroesService {
       casa: "Marvel",
     },
   ];
-  constructor() {
-    console.warn("servicio listo");
-  }
+  constructor() {}
 
   getHeroes(): Heroe[] {
     return this.heroes;

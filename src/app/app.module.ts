@@ -17,6 +17,7 @@ import { RouterLinkActive } from "@angular/router";
 import { from } from "rxjs";
 import { HeroComponent } from './components/hero/hero.component';
 import { SearchComponent } from './components/search/search.component';
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { SearchComponent } from './components/search/search.component';
     HeroesComponent,
     HeroComponent,
     SearchComponent,
+    HeroeTarjetaComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, APP_ROUTING],
   providers: [HeroesComponent],
